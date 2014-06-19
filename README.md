@@ -25,7 +25,7 @@ Or install it yourself as:
 
 ```ruby
 require 'rubygems' # Needed if using Ruby 1.8.7
-require 'lib/require_date'
+require 'require_date'
     
 # Default RegExp is RequireDate.FORMATS[:date]
 # The following hash is equal to RequireDate.FORMATS
