@@ -2,9 +2,9 @@ require 'date'
 
 module RequireDate
 
-  VERSION = '0.0.1'
+  VERSION = '0.0.2'
 
-  ARGUMENT_LIST = ARGV
+  ARGUMENT_LIST = ARGV.dup
 
   FORMATS = {
     :date => Regexp.union(/\A(\d{4})-(\d{2})-(\d{2})\z/, /\A(\d{4})(\d{2})(\d{2})\z/),
